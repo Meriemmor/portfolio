@@ -848,3 +848,85 @@ body::before {
         font-size: 10px;
     }
 }
+/* ========================================
+   LEVEL 03 — PLAYER INVENTORY
+======================================== */
+
+.skill-inventory {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 35px;
+}
+
+.skill-category {
+    position: relative;
+    min-height: 250px;
+    padding: 25px 20px;
+    background: #0d0d0d;
+    border: 2px solid #242424;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.skill-category:hover {
+    border-color: #ff4fa3;
+    transform: translateY(-4px);
+    box-shadow: 5px 5px 0 #ff4fa3;
+}
+
+.skill-icon {
+    color: #83ff78;
+    font-family: "Press Start 2P", monospace;
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.skill-category h3 {
+    color: #ff4fa3;
+    font-family: "Press Start 2P", monospace;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+}
+
+.skill-items span {
+    padding: 8px 10px;
+    border: 1px solid #3a3a3a;
+    background: #050505;
+    color: #fff7e8;
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.15s ease;
+}
+
+.skill-items span:hover {
+    color: #83ff78;
+    border-color: #83ff78;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .skill-inventory {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .skill-inventory {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-category {
+        min-height: auto;
+    }
+}
