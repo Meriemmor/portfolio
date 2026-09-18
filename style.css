@@ -930,3 +930,207 @@ body::before {
         min-height: auto;
     }
 }
+/* ========================================
+   LEVEL 05 — ACADEMIC QUEST
+======================================== */
+
+.education-quest {
+    margin-top: 35px;
+    padding: 35px;
+    background: #0d0d0d;
+    border: 2px solid #242424;
+    position: relative;
+}
+
+.education-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #83ff78;
+    font-family: "Press Start 2P", monospace;
+    font-size: 10px;
+    margin-bottom: 35px;
+}
+
+.status-dot {
+    width: 9px;
+    height: 9px;
+    background: #83ff78;
+    display: inline-block;
+    box-shadow: 0 0 8px #83ff78;
+}
+
+.education-main {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 35px;
+}
+
+/* 2024 → NOW timeline */
+
+.education-year {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff4fa3;
+    font-family: "Press Start 2P", monospace;
+    font-size: 10px;
+}
+
+.education-line {
+    width: 3px;
+    height: 150px;
+    margin: 12px 0;
+    background: repeating-linear-gradient(
+        to bottom,
+        #ff4fa3 0,
+        #ff4fa3 8px,
+        transparent 8px,
+        transparent 15px
+    );
+}
+
+/* Degree information */
+
+.education-type {
+    color: #83ff78;
+    font-family: "Press Start 2P", monospace;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.education-info h3 {
+    color: #fff7e8;
+    font-family: "Press Start 2P", monospace;
+    font-size: clamp(18px, 3vw, 30px);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.education-school {
+    color: #ff4fa3;
+    font-family: "Press Start 2P", monospace;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.education-location {
+    color: #a6a6a6;
+    font-family: "VT323", monospace;
+    font-size: 21px;
+    margin-top: 8px;
+}
+
+/* Degree XP */
+
+.education-xp {
+    margin-top: 30px;
+}
+
+.education-xp-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: #83ff78;
+    font-family: "Press Start 2P", monospace;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.education-xp-bar {
+    height: 16px;
+    padding: 2px;
+    border: 2px solid #fff7e8;
+    background: #050505;
+}
+
+.education-xp-bar div {
+    width: 55%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        90deg,
+        #83ff78 0,
+        #83ff78 12px,
+        #050505 12px,
+        #050505 15px
+    );
+}
+
+/* Skills unlocked */
+
+.education-modules {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px dashed #3a3a3a;
+}
+
+.modules-title {
+    color: #ff4fa3;
+    font-family: "Press Start 2P", monospace;
+    font-size: 10px;
+    margin-bottom: 18px;
+}
+
+.module-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.module-tags span {
+    padding: 8px 11px;
+    background: #050505;
+    border: 1px solid #3a3a3a;
+    color: #fff7e8;
+    font-family: "VT323", monospace;
+    font-size: 19px;
+}
+
+.module-tags span::before {
+    content: "✓ ";
+    color: #83ff78;
+}
+
+.education-message {
+    margin-top: 35px;
+    text-align: center;
+    color: #83ff78;
+    font-family: "Press Start 2P", monospace;
+    font-size: 9px;
+    line-height: 2;
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+    .education-quest {
+        padding: 25px 18px;
+    }
+
+    .education-main {
+        grid-template-columns: 1fr;
+    }
+
+    .education-year {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+    .education-line {
+        width: 70px;
+        height: 3px;
+        margin: 0;
+        background: repeating-linear-gradient(
+            to right,
+            #ff4fa3 0,
+            #ff4fa3 8px,
+            transparent 8px,
+            transparent 15px
+        );
+    }
+
+    .education-xp-header {
+        flex-direction: column;
+    }
+}
