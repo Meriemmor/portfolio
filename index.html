@@ -1,578 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meriem Mornagui — Software, Data & Digital Technology Portfolio">
-    <title>Meriem.exe | Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meriem Mornagui — Information Technology & Digitalization student, IT & Business Analytics working student, and software project builder.">
+  <meta name="theme-color" content="#050505">
+  <title>Meriem.exe | IT, Data & Digital Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="game-hud">
+    <a class="hud-brand" href="#home">PLAYER 01: <span>MERIEM</span></a>
+    <nav class="hud-nav" aria-label="Main navigation">
+      <a href="#about">ABOUT</a><a href="#projects">PROJECTS</a><a href="#skills">SKILLS</a><a href="#experience">EXPERIENCE</a><a href="#contact">CONTACT</a>
+    </nav>
+    <div class="hud-status">STATUS: <span>ONLINE ●</span></div>
+  </header>
 
-    <header class="game-hud">
-        <div>PLAYER 01: <span>MERIEM</span></div>
-        <div class="hud-center">PORTFOLIO.EXE</div>
-        <div>STATUS: <span>ONLINE ●</span></div>
-    </header>
-
-    <main>
-
-        <!-- START SCREEN -->
-        <section class="start-screen">
-
-            <div class="pixel-stars">✦　⋆　✧　⋆　✦</div>
-
-            <p class="small-label">WELCOME TO</p>
-
-            <h1>
-                MERIEM'S
-                <span>PORTFOLIO</span>
-            </h1>
-
-            <div class="player-card">
-                <div class="avatar-placeholder player-avatar">
-    <img
-        src="player-meriem.png"
-        alt="Pixel art avatar of Meriem working at her laptop"
-    >
-
-    <span class="player-number">PLAYER 01</span>
-</div>
-
-                <div class="player-info">
-                    <p class="player-name">MERIEM MORNAGUI</p>
-                    <p>CLASS: IT & DIGITALIZATION</p>
-                    <p>FOCUS: SOFTWARE • DATA • TECH</p>
-                    <p>LOCATION: GERMANY</p>
-
-                    <div class="xp">
-                        <span>XP</span>
-                        <div class="xp-bar">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <a href="#about" class="start-button">▶ START</a>
-
-            <p class="chandler-line">
-                JOB CLASS: definitely not a transponster.
-            </p>
-
-            <p class="press-start">SCROLL TO CONTINUE ↓</p>
-
-        </section>
-
-
-        <!-- LEVEL 01 -->
-        <section id="about" class="level">
-
-            <div class="level-heading">
-                <p>LEVEL 01</p>
-                <h2>MEET THE PLAYER</h2>
-            </div>
-
-            <div class="game-window">
-                <div class="window-bar">
-                    <span>PLAYER_PROFILE.EXE</span>
-                    <span>— □ ×</span>
-                </div>
-
-                <div class="window-content">
-                    <p class="green">HELLO! I'M MERIEM.</p>
-
-                    <p>
-                        I'm an Information Technology & Digitalization student
-                        interested in building practical solutions across
-                        software, databases, data and digital technologies.
-                    </p>
-
-                    <p>
-                        I enjoy turning ideas into working applications and
-                        learning new technologies by actually building with them.
-                    </p>
-
-                    <p class="cursor-line">
-                        CURRENT MISSION: keep building cool stuff<span>_</span>
-                    </p>
-                </div>
-            </div>
-
-        </section>
-
-
-        <!-- LEVEL 02 -->
-        <section id="projects" class="level">
-
-            <div class="level-heading">
-                <p>LEVEL 02</p>
-                <h2>PROJECT QUESTS</h2>
-            </div>
-
-            <div class="project-card">
-
-                <div class="quest-label">QUEST 001 • COMPLETED ✓</div>
-
-                <h3>VULNERABILITY TRACKER</h3>
-
-                <p>
-                    A database-backed application for tracking security
-                    vulnerabilities across IT assets.
-                </p>
-
-                <div class="tech-stack">
-                    <span>PostgreSQL</span>
-                    <span>FastAPI</span>
-                    <span>Python</span>
-                    <span>Docker</span>
-                    <span>REST API</span>
-                    <span>pytest</span>
-                </div>
-
-                <a
-                    href="https://github.com/Meriemmor/DBMS_10"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="pixel-link"
-                >
-                    VIEW QUEST →
-                </a>
-
-            </div>
-<!-- DATABASE SYSTEMS JOURNEY -->
-<div class="db-journey">
-
-    <div class="journey-header">
-        <p class="quest-label">QUEST 002 • COMPLETED ✓</p>
-        <h3>DATABASE ENGINEERING JOURNEY</h3>
-
-        <p class="journey-description">
-            A semester-long series of practical database exercises,
-            progressing from database fundamentals and SQL to PostgreSQL,
-            backend integration and Python application development.
-        </p>
-    </div>
-
-    <div class="journey-path">
-
-        <div class="journey-step">
-            <span>01</span>
-            <p>DB BASICS</p>
+  <main>
+    <section id="home" class="start-screen">
+      <div class="pixel-stars" aria-hidden="true">✦　⋆　✧　⋆　✦</div>
+      <p class="small-label">WELCOME TO MY DIGITAL WORLD</p>
+      <h1>MERIEM<span>.EXE</span></h1>
+      <p class="hero-subtitle">IT & BUSINESS ANALYTICS <b>·</b> SOFTWARE <b>·</b> DIGITAL TECHNOLOGY</p>
+      <div class="player-card">
+        <div class="avatar-placeholder player-avatar">
+          <img src="player-meriem.png" alt="Pixel art avatar representing Meriem working at her laptop">
+          <span class="player-number">PLAYER 01</span>
         </div>
-
-        <div class="journey-line"></div>
-
-        <div class="journey-step">
-            <span>02</span>
-            <p>SQL</p>
+        <div class="player-info">
+          <p class="player-name">MERIEM MORNAGUI</p>
+          <p>CLASS: IT & DIGITALIZATION</p>
+          <p>ROLE: WORKING STUDENT @ E.ON</p>
+          <p>FOCUS: DATA • SYSTEMS • SOFTWARE</p>
+          <p>LOCATION: GERMANY</p>
+          <div class="xp"><span>XP</span><div class="xp-bar"><div></div></div><small>ALWAYS LEARNING</small></div>
+          <div class="hero-actions">
+            <a class="start-button" href="#about">▶ START GAME</a>
+          </div>
         </div>
+      </div>
+      <p class="chandler-line">JOB CLASS: definitely not a transponster.</p>
+      <p class="press-start">SCROLL TO CONTINUE ↓</p>
+    </section>
 
-        <div class="journey-line"></div>
-
-        <div class="journey-step">
-            <span>03</span>
-            <p>POSTGRESQL</p>
+    <section id="about" class="level">
+      <div class="level-heading"><p>LEVEL 01</p><h2>MEET THE PLAYER</h2></div>
+      <div class="game-window">
+        <div class="window-bar"><span>PLAYER_PROFILE.EXE</span><span>— □ ×</span></div>
+        <div class="window-content">
+          <p class="green">HELLO! I'M MERIEM.</p>
+          <p>I'm an Information Technology & Digitalization student at Technische Hochschule Georg Agricola and a Working Student in IT & Business Analytics at E.ON Digital Technology.</p>
+          <p>My experience combines enterprise IT processes and digital workplace topics with hands-on university projects in backend development, relational databases, IoT and robotics.</p>
+          <p>I enjoy understanding how systems work, connecting technical components and turning requirements into practical solutions.</p>
+          <p class="cursor-line">CURRENT MISSION: build, learn, improve<span>_</span></p>
         </div>
+      </div>
+    </section>
 
-        <div class="journey-line"></div>
-
-        <div class="journey-step">
-            <span>04</span>
-            <p>PL/pgSQL</p>
-        </div>
-
-        <div class="journey-line"></div>
-
-        <div class="journey-step">
-            <span>05</span>
-            <p>APIs</p>
-        </div>
-
-        <div class="journey-line"></div>
-
-        <div class="journey-step">
-            <span>06</span>
-            <p>PYTHON</p>
-        </div>
-
-        <div class="journey-line"></div>
-
-        <div class="journey-step">
-            <span>09</span>
-            <p>FRONTEND</p>
-        </div>
-
-    </div>
-
-    <div class="journey-footer">
-        <span>DBMS_01</span>
-        <span>→</span>
-        <span>DBMS_09</span>
-    </div>
-
-    <a
-        href="https://github.com/Meriemmor"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="pixel-link"
-    >
-        EXPLORE JOURNEY →
-    </a>
-
-</div>
-
-
-<!-- SIDE QUEST -->
-<div class="side-quest">
-
-    <p class="quest-label">SIDE QUEST • COMPLETED ✓</p>
-
-    <h3>FACTORY DEMO FRONTEND</h3>
-
-    <p>
-        A Python desktop frontend built with tkinter for interacting
-        with the Factory Demo API as part of the database systems
-        practical exercises.
-    </p>
-
-    <div class="tech-stack">
-        <span>Python</span>
-        <span>tkinter</span>
-        <span>API Integration</span>
-        <span>Desktop UI</span>
-    </div>
-
-    <a
-        href="https://github.com/Meriemmor/fabrik-frontend"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="pixel-link"
-    >
-        VIEW SIDE QUEST →
-    </a>
-
-</div>
-        </section>
-
-
-        <!-- LEVEL 03 -->
-<section id="skills" class="level">
-
-    <div class="level-heading">
-        <p>LEVEL 03</p>
-        <h2>PLAYER INVENTORY</h2>
-    </div>
-
-    <div class="skill-inventory">
-
-        <article class="skill-category">
-            <div class="skill-icon">&lt;/&gt;</div>
-            <h3>PROGRAMMING</h3>
-            <div class="skill-items">
-                <span>Python</span>
-                <span>C</span>
-                <span>C++</span>
-                <span>VHDL</span>
-                <span>HTML</span>
-                <span>CSS</span>
-            </div>
+    <section id="projects" class="level">
+      <div class="level-heading"><p>LEVEL 02</p><h2>PROJECT QUESTS</h2><p class="section-intro">Selected university and technical projects. Open a quest to explore its code and implementation.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured-project">
+          <div class="quest-label">QUEST 001 • FEATURED PROJECT</div><h3>VULNERABILITY TRACKER</h3>
+          <p>A database-backed vulnerability management application for recording findings, connecting affected assets to vulnerabilities and tracking remediation status.</p>
+          <ul class="project-highlights"><li>Relational PostgreSQL model with four entities and 3NF design</li><li>FastAPI REST backend with filtering, summaries and protected write operations</li><li>Python tkinter desktop frontend, Docker Compose and pytest API tests</li><li>Frontend packaged as a Debian application using PyInstaller</li></ul>
+          <div class="tech-stack"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>SQL</span><span>Docker Compose</span><span>pytest</span><span>tkinter</span></div>
+          <div class="project-links"><a class="pixel-link" href="https://github.com/Meriemmor/DBMS_10" target="_blank" rel="noopener noreferrer">SOURCE CODE ↗</a><a class="pixel-link" href="https://www.youtube.com/watch?v=9EdNiDMKFo4" target="_blank" rel="noopener noreferrer">DEMO VIDEO ↗</a><a class="pixel-link" href="#vulnerability-details">TECHNICAL DETAILS ↓</a></div>
         </article>
 
-        <article class="skill-category">
-            <div class="skill-icon">▦</div>
-            <h3>DATA & BACKEND</h3>
-            <div class="skill-items">
-                <span>SQL</span>
-                <span>PostgreSQL</span>
-                <span>FastAPI</span>
-                <span>REST APIs</span>
-            </div>
+        <article class="project-card">
+          <div class="quest-label">QUEST 002 • IN PROGRESS</div><h3>ESP32 OTA UPDATE SYSTEM</h3>
+          <p>Implementation of an over-the-air firmware update workflow for an ESP32 microcontroller, using Wi-Fi connectivity and a web-based update interface.</p>
+          <ul class="project-highlights"><li>Wi-Fi connection and embedded web server</li><li>Firmware update integration and GPIO LED control</li></ul>
+          <div class="tech-stack"><span>Arduino/C++</span><span>ESP32</span><span>Wi-Fi</span><span>HTTP</span><span>GPIO</span></div>
+          <a class="pixel-link" href="https://github.com/Meriemmor" target="_blank" rel="noopener noreferrer">EXPLORE GITHUB ↗</a>
         </article>
 
-        <article class="skill-category">
-            <div class="skill-icon">☁</div>
-            <h3>DEV & CLOUD</h3>
-            <div class="skill-items">
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>Docker</span>
-                <span>Docker Compose</span>
-                <span>GitHub Actions</span>
-                <span>Microsoft Azure</span>
-                <span>Azure DevOps</span>
-            </div>
+        <article class="project-card">
+          <div class="quest-label">QUEST 003 • COMPLETED</div><h3>ROS2 LASERSCAN PUBLISHER</h3>
+          <p>A Python ROS2 node publishing laser scanner messages on the <code>/scan</code> topic, with package setup and topic communication verification.</p>
+          <ul class="project-highlights"><li>ROS2 Python package and publisher node</li><li>LaserScan message handling and topic inspection</li></ul>
+          <div class="tech-stack"><span>Python</span><span>ROS2</span><span>Ubuntu</span><span>sensor_msgs</span></div>
+          <a class="pixel-link" href="https://github.com/Meriemmor" target="_blank" rel="noopener noreferrer">EXPLORE GITHUB ↗</a>
         </article>
 
-        <article class="skill-category">
-            <div class="skill-icon">◆</div>
-            <h3>ENTERPRISE TECH</h3>
-            <div class="skill-items">
-                <span>SAP</span>
-                <span>SAP Fiori</span>
-                <span>Compass CMS</span>
-                <span>Haiilo</span>
-                <span>Autodesk</span>
-            </div>
+        <article class="project-card">
+          <div class="quest-label">QUEST 004 • IN PROGRESS</div><h3>MOBILE NOTES APPLICATION</h3>
+          <p>Requirements and software design work for a mobile notes application, including use cases, functional requirements and user interaction flows.</p>
+          <ul class="project-highlights"><li>Create, edit and delete note use cases</li><li>Preconditions, postconditions and offline-mode requirements</li></ul>
+          <div class="tech-stack"><span>Requirements Engineering</span><span>Use Cases</span><span>Software Design</span></div>
+          <a class="pixel-link" href="https://github.com/Meriemmor" target="_blank" rel="noopener noreferrer">EXPLORE GITHUB ↗</a>
         </article>
+      </div>
 
-        <article class="skill-category">
-            <div class="skill-icon">⚙</div>
-            <h3>ENGINEERING</h3>
-            <div class="skill-items">
-                <span>MATLAB</span>
-                <span>Simulink</span>
-                <span>LabVIEW</span>
-            </div>
-        </article>
-
-        <article class="skill-category">
-            <div class="skill-icon">✦</div>
-            <h3>ANALYTICS & WORKFLOW</h3>
-            <div class="skill-items">
-                <span>Business Analytics</span>
-                <span>Microsoft Excel</span>
-                <span>Jira</span>
-                <span>Agile Methods</span>
-                <span>Digital Transformation</span>
-            </div>
-        </article>
-
-    </div>
-
-</section>
-
-<!-- LEVEL 04 -->
-<section id="experience" class="level">
-
-    <div class="level-heading">
-        <p>LEVEL 04</p>
-        <h2>PROFESSIONAL MISSIONS</h2>
-    </div>
-
-    <div class="experience-card">
-
-        <div class="experience-header">
-            <div>
-                <p class="mission-status">● CURRENT MISSION</p>
-                <h3>E.ON DIGITAL TECHNOLOGY</h3>
-                <p class="job-title">
-                    Working Student — IT & Business Analytics
-                </p>
-            </div>
-
-            <div class="company-badge">
-                E.ON
-            </div>
+      <div id="vulnerability-details" class="detail-panel">
+        <div class="quest-label">BOSS LEVEL • PROJECT DEEP DIVE</div><h3>VULNERABILITY TRACKER: HOW IT WORKS</h3>
+        <p class="detail-lead">The application separates the user interface, API and persistent storage. The desktop client communicates with FastAPI over HTTP; it does not connect directly to PostgreSQL.</p>
+        <div class="architecture" aria-label="Application architecture">
+          <div><b>DESKTOP CLIENT</b><span>Python · tkinter</span></div><i>HTTP / JSON ↕</i><div><b>REST API</b><span>FastAPI · Pydantic</span></div><i>SQL ↕</i><div><b>DATABASE</b><span>PostgreSQL</span></div>
         </div>
-
-        <div class="work-stack">
-            <span>Microsoft Azure</span>
-            <span>WIZZ</span>
-            <span>SAP</span>
-            <span>Autodesk</span>
-            <span>Business Analytics</span>
-            <span>Digital Workplace</span>
+        <div class="detail-columns">
+          <div><h4>DATA MODEL</h4><p><b>Team</b> is responsible for multiple <b>Assets</b>. A <b>Finding</b> links an asset to a <b>Vulnerability</b> and stores status, discovery date, due date and resolution date.</p></div>
+          <div><h4>API CAPABILITIES</h4><p>List and filter findings, retrieve an individual finding, list assets and teams, view unresolved findings grouped by severity, create findings and update their status.</p></div>
+          <div><h4>VALIDATION & TESTING</h4><p>Database constraints protect data integrity. Write endpoints require an API key; request data is validated with Pydantic. Automated tests cover API availability, authentication, validation and data operations.</p></div>
         </div>
+        <p class="source-note">Project details are based on the THGA term-project documentation. Course concepts and examples were adapted and extended for the application.</p>
+        <a class="pixel-link" href="https://github.com/Meriemmor/DBMS_10" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+      </div>
 
+      <div class="secondary-projects">
+        <p class="quest-label">BONUS CONTENT • MORE BUILDS</p>
+        <h3>DATABASE ENGINEERING JOURNEY</h3><p>A series of practical database exercises progressing through SQL, PostgreSQL, backend integration and Python application development.</p>
+        <a class="pixel-link" href="https://github.com/Meriemmor" target="_blank" rel="noopener noreferrer">EXPLORE GITHUB ↗</a>
+        <h3>FACTORY DEMO FRONTEND</h3><p>A Python tkinter desktop frontend built to interact with the Factory Demo API as part of database systems practical exercises.</p>
+        <div class="tech-stack"><span>Python</span><span>tkinter</span><span>API Integration</span></div>
+        <a class="pixel-link" href="https://github.com/Meriemmor/fabrik-frontend" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+      </div>
+    </section>
+
+    <section id="skills" class="level">
+      <div class="level-heading"><p>LEVEL 03</p><h2>PLAYER INVENTORY</h2><p class="section-intro">Tools and technologies used in professional work, coursework and personal projects.</p></div>
+      <div class="skill-inventory">
+        <article class="skill-category"><div class="skill-icon">&lt;/&gt;</div><h3>PROGRAMMING</h3><div class="skill-items"><span>Python</span><span>C</span><span>C++</span><span>C#</span><span>HTML</span><span>CSS</span></div></article>
+        <article class="skill-category"><div class="skill-icon">▦</div><h3>DATA & BACKEND</h3><div class="skill-items"><span>SQL</span><span>PostgreSQL</span><span>FastAPI</span><span>REST APIs</span><span>pytest</span></div></article>
+        <article class="skill-category"><div class="skill-icon">☁</div><h3>DEV & TOOLS</h3><div class="skill-items"><span>Git</span><span>GitHub</span><span>Docker</span><span>Docker Compose</span><span>Azure DevOps</span><span>Microsoft Azure</span></div></article>
+        <article class="skill-category"><div class="skill-icon">◆</div><h3>ENTERPRISE SYSTEMS</h3><div class="skill-items"><span>SAP Fiori</span><span>SAP BW</span><span>Compass CMS</span><span>Haiilo</span></div></article>
+        <article class="skill-category"><div class="skill-icon">⚙</div><h3>ENGINEERING & IoT</h3><div class="skill-items"><span>ESP32</span><span>Arduino</span><span>ROS2</span><span>MATLAB</span><span>LabVIEW</span></div></article>
+        <article class="skill-category"><div class="skill-icon">✦</div><h3>BUSINESS & ANALYTICS</h3><div class="skill-items"><span>Business Analytics</span><span>Microsoft Excel</span><span>Digital Transformation</span><span>Requirements Analysis</span></div></article>
+      </div>
+      <p class="source-note">Skills reflect a mix of professional exposure and practical academic projects; proficiency varies by technology.</p>
+    </section>
+
+    <section id="experience" class="level">
+      <div class="level-heading"><p>LEVEL 04</p><h2>PROFESSIONAL MISSIONS</h2></div>
+      <div class="experience-card">
+        <div class="experience-header"><div><p class="mission-status">● CURRENT MISSION · SINCE FEB 2026</p><h3>E.ON DIGITAL TECHNOLOGY</h3><p class="job-title">Working Student — IT & Business Analytics</p></div><div class="company-badge">E.ON</div></div>
+        <div class="work-stack"><span>SAP Fiori</span><span>Compass CMS</span><span>Digital Workplace</span><span>Business Processes</span><span>Cross-functional Collaboration</span></div>
         <div class="mission-grid">
-
-            <!-- AUTODESK -->
-            <article class="mission-card">
-                <p class="mission-number">MISSION 01</p>
-
-                <h4>Autodesk Portfolio Analysis</h4>
-
-                <p>
-                    Worked on analyzing Autodesk applications and their
-                    use within an enterprise IT environment, creating
-                    structured insights to support software portfolio
-                    understanding and decision-making.
-                </p>
-
-                <div class="mission-footer">
-                    <span>ANALYSIS</span>
-                    <span>SOFTWARE PORTFOLIO</span>
-                </div>
-            </article>
-
-
-            <!-- INTRANET -->
-            <article class="mission-card">
-
-    <p class="mission-number">MISSION 02</p>
-
-    <h4>Intranet & Digital Workplace</h4>
-
-    <p>
-        Contributed to the redesign and improvement of internal intranet
-        content within E.ON's digital workplace. Worked on structuring
-        Access Management information into clear sections, workflows
-        and FAQs to improve usability and information accessibility.
-    </p>
-
-    <div class="mission-footer">
-        <span>COMPASS CMS</span>
-        <span>HAIILO</span>
-        <span>CONTENT DESIGN</span>
-        <span>INFORMATION ARCHITECTURE</span>
-        <span>DIGITAL WORKPLACE</span>
-    </div>
-
-</article>
-
-
-            <!-- ENTERPRISE TOOLS -->
-            <article class="mission-card">
-                <p class="mission-number">MISSION 03</p>
-
-                <h4>Enterprise IT & Analytics</h4>
-
-                <p>
-                    Building practical experience with enterprise
-                    platforms and business processes while working
-                    across IT and business analytics.
-                </p>
-
-                <div class="mission-footer">
-                    <span>AZURE</span>
-                    <span>WIZZ</span>
-                    <span>SAP</span>
-                </div>
-            </article>
-
+          <article class="mission-card"><p class="mission-number">MISSION 01</p><h4>Enterprise IT Operations</h4><p>Processing purchase requisitions (BANF) and purchase orders in SAP Fiori, and supporting internal enterprise workflows.</p><div class="mission-footer"><span>SAP FIORI</span><span>PROCUREMENT PROCESSES</span></div></article>
+          <article class="mission-card"><p class="mission-number">MISSION 02</p><h4>Digital Workplace & Intranet</h4><p>Managing and publishing internal content through Compass CMS and contributing to the redesign and improvement of the company intranet.</p><div class="mission-footer"><span>COMPASS CMS</span><span>CONTENT MANAGEMENT</span><span>INTRANET</span></div></article>
+          <article class="mission-card"><p class="mission-number">MISSION 03</p><h4>Cross-functional Digitalization</h4><p>Collaborating with different departments and supporting IT and business analytics activities across business areas.</p><div class="mission-footer"><span>COLLABORATION</span><span>DIGITAL TRANSFORMATION</span></div></article>
         </div>
+        <p class="confidential-note">Some work takes place in internal company environments. This portfolio only describes transferable responsibilities and does not disclose confidential information.</p>
+      </div>
+      <div class="previous-experience"><h3>PREVIOUS EXPERIENCE</h3><div><b>Working Student — Sales</b><span>Primark · Sep 2025 – Jan 2026</span></div><div><b>Retail Technology Advisor</b><span>Bochum · Jan 2025 – Aug 2025</span></div><div><b>Receptionist</b><span>Velbert · Jun 2024 – Mar 2025</span></div></div>
+    </section>
 
-        <p class="confidential-note">
-            🔒 Some mission details remain classified. Corporate secrets,
-            you know.
-        </p>
+    <section id="education" class="level">
+      <div class="level-heading"><p>LEVEL 05</p><h2>ACADEMIC QUEST</h2></div>
+      <div class="education-quest">
+        <div class="education-status"><span class="status-dot"></span> QUEST IN PROGRESS</div>
+        <div class="education-main"><div class="education-year"><span>2024</span><div class="education-line"></div><span>2028*</span></div><div class="education-info"><p class="education-type">BACHELOR'S DEGREE · IN PROGRESS</p><h3>INFORMATIONSTECHNIK<br>& DIGITALISIERUNG</h3><p class="education-school">TECHNISCHE HOCHSCHULE GEORG AGRICOLA</p><p class="education-location">BOCHUM, GERMANY</p><p class="education-note">Expected graduation: 2028 (planned)</p></div></div>
+        <div class="education-modules"><p class="modules-title">SELECTED STUDY AREAS</p><div class="module-tags"><span>Programming</span><span>Database Systems</span><span>IT Security</span><span>IoT</span><span>Automation</span><span>Robotics</span><span>Software Engineering</span></div></div>
+        <p class="education-message">★ CURRENT OBJECTIVE: COMPLETE THE DEGREE & KEEP GAINING XP ★</p>
+      </div>
+      <div class="language-panel"><h3>LANGUAGES</h3><div><b>Arabic</b><span>Native</span></div><div><b>German</b><span>C1 · telc C1 Hochschule</span></div><div><b>English</b><span>C1</span></div><div><b>French</b><span>C1</span></div><div><b>Spanish</b><span>B1 (self-assessed)</span></div></div>
+    </section>
 
-    </div>
-
-</section>
-<!-- LEVEL 05 -->
-<section id="education" class="level">
-
-    <div class="level-heading">
-        <p>LEVEL 05</p>
-        <h2>ACADEMIC QUEST</h2>
-    </div>
-
-    <div class="education-quest">
-
-        <div class="education-status">
-            <span class="status-dot"></span>
-            QUEST IN PROGRESS
-        </div>
-
-        <div class="education-main">
-
-            <div class="education-year">
-                <span>2024</span>
-                <div class="education-line"></div>
-                <span>NOW</span>
-            </div>
-
-            <div class="education-info">
-                <p class="education-type">BACHELOR OF SCIENCE</p>
-
-                <h3>INFORMATIONSTECHNIK<br>
-                    & DIGITALISIERUNG
-                </h3>
-
-                <p class="education-school">
-                    TECHNISCHE HOCHSCHULE GEORG AGRICOLA
-                </p>
-
-                <p class="education-location">
-                    BOCHUM, GERMANY
-                </p>
-
-                <div class="education-xp">
-                    <div class="education-xp-header">
-                        <span>DEGREE PROGRESS</span>
-                        <span>IN PROGRESS...</span>
-                    </div>
-
-                    <div class="education-xp-bar">
-                        <div></div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="education-modules">
-
-            <p class="modules-title">SKILLS UNLOCKED</p>
-
-            <div class="module-tags">
-                <span>Programming</span>
-                <span>Databases</span>
-                <span>Digital Technology</span>
-                <span>Electrical Engineering</span>
-                <span>IT Security</span>
-                <span>Physics</span>
-                <span>Business</span>
-            </div>
-
-        </div>
-
-        <p class="education-message">
-            ★ CURRENT OBJECTIVE: COMPLETE THE DEGREE & KEEP GAINING XP ★
-        </p>
-
-    </div>
-
-</section>
-        <!-- FINAL LEVEL -->
-        <section id="contact" class="level final-level">
-
-            <div class="level-heading">
-                <p>FINAL LEVEL</p>
-                <h2>LET'S CONNECT</h2>
-            </div>
-
-            <p>
-                Want to talk about software, data, technology,
-                or an interesting opportunity?
-            </p>
-
-            <div class="contact-buttons">
-
-    <a
-        href="https://github.com/Meriemmor"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        GITHUB ↗
-    </a>
-
-    <a
-        href="https://www.linkedin.com/in/meriem-mornagui-8037011b0"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        LINKEDIN ↗
-    </a>
-
-    <a href="mailto:meriemmornagui8@gmail.com">
-        EMAIL ✉
-    </a>
-
-</div>
-
-            <p class="game-over">
-                ★ THANKS FOR PLAYING ★
-            </p>
-
-        </section>
-
-    </main>
-
+    <section id="contact" class="level final-level">
+      <div class="level-heading"><p>FINAL LEVEL</p><h2>LET'S CONNECT</h2></div>
+      <p>Interested in IT, data, digital technology or a good project? I'd be happy to connect.</p>
+      <div class="contact-buttons"><a href="https://github.com/Meriemmor" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/meriem-mornagui-8037011b0" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="mailto:meriemmornagui8@gmail.com">EMAIL ✉</a></div>
+      <p class="contact-location">BOCHUM / ESSEN · GERMANY</p>
+      <p class="game-over">★ THANKS FOR PLAYING ★</p>
+    </section>
+  </main>
+  <footer class="site-footer">© <span id="year">2026</span> MERIEM MORNAGUI · BUILT WITH CURIOSITY & PIXELS</footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
