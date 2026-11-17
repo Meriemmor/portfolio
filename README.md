@@ -1,6 +1,6 @@
 # Meriem.exe — Portfolio
 
-Personal portfolio of Meriem Mornagui, an Information Technology & Digitalization student at Technische Hochschule Georg Agricola and Working Student in IT & Business Analytics at E.ON Digital Technology.
+Personal portfolio of Meriem Mornagui, an Bachelor of Engineering (B.Eng.) student in Informationstechnik und Digitalisierung at Technische Hochschule Georg Agricola and Working Student in IT & Business Analytics at E.ON Digital Technology.
 
 ## Run locally
 
